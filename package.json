@@ -1,0 +1,26 @@
+{
+  "name": "bplist",
+  "version": "1.0.0",
+  "description": "Decoder and Encoder in JavaScript for binary property list serialization format.",
+  "main": "src/bplist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raweden/bplist.js.git"
+  },
+  "keywords": [
+    "bplist",
+    "plist",
+    "webarchive",
+    "cib",
+    "serialization"
+  ],
+  "author": "Raweden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raweden/bplist.js/issues"
+  },
+  "homepage": "https://github.com/raweden/bplist.js#readme"
+}
