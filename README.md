@@ -4,7 +4,7 @@ The [bplist](https://en.wikipedia.org/wiki/Property_list) serialization format u
 
 The history behind this implementation started in 2012 and I've since then used it in a variation of my own projects that needs to be able to serialize data in a more efficient and lightweight way than what's offered by JSON/BSON.
 
-Historically this have been the goto format for many diffrent areas, it have been used for everything from xpc, application state serialization, file format and a `*.webarchive` is simply a binary plist.
+Historically the bplist format have been the goto for many diffrent areas, it have been used for everything from xpc, application state serialization, file format and also a `*.webarchive` file is simply a binary plist.
 
 ### Disclaimer 
 
@@ -19,7 +19,7 @@ As bplist specifies that 32-bit integers are always encoded as unsigned, meaning
 
 ### TODO
 
-- Add support for later specification, which I suppose was added at the point where the platform was transitioned to swift, adding a few new types for url, utf8 and uuid. Found in following link [CFBinaryPList.c](https://opensource.apple.com/source/CF/CF-855.17/CFBinaryPList.c.auto.html) at line 240.
+- Add support for later specification, which I suppose was added at the point where the platform was transitioned to swift, adding a few new types for url, utf8 and uuid. Specification for the new addition can be found in following link [CFBinaryPList.c](https://opensource.apple.com/source/CF/CF-855.17/CFBinaryPList.c.auto.html) at line 240.
 
 ### Conventions
 
