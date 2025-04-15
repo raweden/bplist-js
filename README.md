@@ -19,7 +19,7 @@ As bplist specifies that 32-bit integers are always encoded as unsigned, meaning
 
 ### TODO
 
-- Add support for later specification, which I suppose was added at the point where the platform was transitioned to swift, adding a few new types for url, utf8 and uuid. Specification for the new addition can be found in following link [CFBinaryPList.c](https://opensource.apple.com/source/CF/CF-855.17/CFBinaryPList.c.auto.html) at line 240.
+- Add support for later specification, which I suppose was added at the point where the platform was transitioned to swift, adding a few new types for url, utf8 and uuid. Specification for the new addition can be found in following link [CFBinaryPList.c](https://github.com/opensource-apple/CF/blob/master/CFBinaryPList.c) at line 240.
 
 ### Conventions
 
